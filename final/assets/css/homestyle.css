@@ -58,7 +58,7 @@ html {
 }
 
 #cloud-4 img {
-    width: 80%;
+    width: 154px;
 }
 
 #logo-box {
@@ -183,7 +183,7 @@ html {
     justify-content: center;
     left: 50%;
     transform: translateX(-50%);
-    top: 1170px;
+    top: 1120px;
     text-align: center;
     z-index: 11;
 }
@@ -222,7 +222,7 @@ html {
     justify-content: center;
     left: 50%;
     transform: translateX(-50%);
-    top: 1670px;
+    top: 1620px;
     text-align: center;
     z-index: 11;
     /* transition: .1s ease-in-out 0s; */
@@ -250,4 +250,68 @@ html {
 
 .hidden {
     visibility: hidden;
+}
+
+
+@media (max-width: 1200px) {
+    #tree {
+        position: absolute;
+        width: 800px;
+        top: 1114px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    #logo-box {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 170px;
+        text-align: center;
+
+        width: 600px;
+    }
+
+    #logo-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Daydream, sans-serif;
+        font-size: 70px;
+        z-index: 3;
+        color: #FFF23B;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: #FA7727;
+    }
+
+    #play-box {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 550px;
+
+        /* transition: .1s ease-in-out 0s; */
+        cursor: pointer;
+        width: 50px;
+    }
+
+    #play-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Daydream, sans-serif;
+        font-size: 60px;
+        color: #FFF23B;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: #FA7727;
+    }
+
+
 }

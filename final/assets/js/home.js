@@ -23,6 +23,7 @@ words = [
     "blossom",
     "blue",
     "breeze",
+    "brianna",
     "brilliant",
     "bubble",
     "butterfly",
@@ -324,7 +325,7 @@ function runGame() {
         createLeaf(randomWord, count);
 
         
-        const randomInterval = Math.floor(Math.random() * (3000 - 200 + 1)) + 200; //random num between 200 and 3000
+        const randomInterval = Math.floor(Math.random() * (2000 - 200 + 1)) + 200; //random num between 200 and 3000
         
         timeoutID = setTimeout(leafInterval, randomInterval);
 

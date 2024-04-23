@@ -12,11 +12,75 @@
         href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Lexend+Exa:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/homestyle.css">
+    <link rel="stylesheet" href="assets/css/test.css">
 </head>
 
 <body>
-    <div id="clouds">
+
+    <div id="main">
+        <div id="clouds">
+            <div class="cloud" id="cloud-2">
+                <img src="assets/img/cloud 2.png">
+            </div>
+            <div class="cloud" id="cloud-4">
+                <img src="assets/img/cloud 4.png">
+            </div>
+            <div class="cloud" id="cloud-3">
+                <img src="assets/img/cloud 3.png">
+            </div>
+            <div class="cloud" id="cloud-1">
+                <img src="assets/img/cloud 1.png">
+            </div>
+        </div>
+
+        <div id="logo-box">
+            <div id="logo-text">
+                TYPING TREE
+            </div>
+        </div>
+
+        <div id="play-box">
+            <div id="play-text">
+                PLAY!
+            </div>
+        </div>
+
+        <div id="tree-container">
+            <div id="score">SCORE: 0</div>
+            <img src="assets/img/tree.png" id="tree">
+            <div id="final-screen">
+
+                <div id="game-over-box" class="hidden">
+                    <div id="game-over-text-box">
+                        <div id='game-over' class="game-over-text">
+                            GAME OVER
+                        </div>
+                        <div id='your-score' class="game-over-text">
+                            YOUR SCORE:
+                        </div>
+                        <div id='high-score' class="game-over-text">
+                            HIGH SCORE:
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="play-again-box" class="hidden">
+                    <div id="play-again-text">
+                        PLAY AGAIN!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="light-grass"></div>
+        <div id="dark-grass"></div>
+        <div id="dirt"></div>
+
+
+    </div>
+    <!-- <div id="clouds">
         <div class="cloud" id="cloud-2">
             <img src="assets/img/cloud 2.png">
         </div>
@@ -74,7 +138,7 @@
     <div id="blue-background"></div>
     <div id="light-grass"></div>
     <div id="dark-grass"></div>
-    <div id="dirt"></div>
+    <div id="dirt"></div> -->
 
 
     <script src="assets/js/home.js"></script>
